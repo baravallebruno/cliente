@@ -24,6 +24,7 @@ html {
 	--headingFont: 'Roboto', sans-serif;
 	--textFont: 'Roboto', sans-serif;
 }
+
 html.dark {
 	--white: #fff;
 	--blanco: #4c504f;
