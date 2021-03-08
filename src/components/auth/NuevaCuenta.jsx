@@ -84,7 +84,7 @@ const NuevaCuenta = props => {
 			<div className='contenedor-form sombra-dark'>
 				<h2>Crea una cuenta</h2>
 
-				<form onSubmit={onSubmit}>
+				<form onSubmit={onSubmit} autocomplete='off'>
 					<div className='campo-form'>
 						<label htmlFor='nombre'>Nombre</label>
 						<input

@@ -62,7 +62,11 @@ const NuevoProyecto = () => {
 			) : null}
 
 			{formulario ? (
-				<form className='formulario-nuevo-proyecto' onSubmit={onSubmitProyecto}>
+				<form
+					className='formulario-nuevo-proyecto'
+					onSubmit={onSubmitProyecto}
+					autocomplete='off'
+				>
 					<input
 						type='text'
 						className='input-text'

@@ -81,7 +81,7 @@ const FormTarea = () => {
 
 	return (
 		<div className='formulario sombra'>
-			<form className='form-group' onSubmit={onSubmit}>
+			<form className='form-group' onSubmit={onSubmit} autocomplete='off'>
 				<input
 					type='text'
 					className='input-text input-tarea'
