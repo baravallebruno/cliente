@@ -75,7 +75,7 @@ const Login = props => {
 			<div className='contenedor-form sombra-dark'>
 				<img src={DarkLogo} alt='Logo' className='logo-inicio' />
 
-				<form onSubmit={onSubmit}>
+				<form onSubmit={onSubmit} autocomplete='off'>
 					<div className='campo-form'>
 						<label htmlFor='email'>Email</label>
 						<input
